@@ -11,4 +11,4 @@ app.use('/vehicles', vehicleRouter);
 app.use('/workshops', workshopRouter);
 app.use('/maintenances', maintenanceRouter);
 
-app.listen(process.env.API_PORT, () => console.log('Server is running on port ' + process.env.API_PORT));
+app.listen(3000, () => console.log('Server is running on port 3000'));
